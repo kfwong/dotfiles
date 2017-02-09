@@ -15,3 +15,4 @@ rsync -avhR ~/./.bashrc .
 rsync -avhR ~/./.gitconfig .
 rsync -avhR /etc/vimrc .
 rsync -avhR /usr/share/vim/vimfiles/colors/molokai.vim .
+rsync -avhR ~/./.dircolors

@@ -53,3 +53,4 @@ if [[ $PS1 && -f /usr/share/git/git-prompt.sh ]]; then
 else
     export PS1="$GY[$Y\u$GY@$P\h$GY:$B\W$GY]$W\$(get_prompt_symbol) "
 fi
+eval $(dircolors -b $HOME/.dircolors)
