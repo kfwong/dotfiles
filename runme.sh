@@ -13,3 +13,5 @@ rsync -avhR ~/./.config/tint2/tint2rc .
 rsync -avhR ~/./.bash_profile .
 rsync -avhR ~/./.bashrc .
 rsync -avhR ~/./.gitconfig .
+rsync -avhR /etc/vimrc .
+rsync -avhR /usr/share/vim/vimfiles/colors/molokai.vim .
