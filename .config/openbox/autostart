@@ -1,0 +1,32 @@
+# panel
+(sleep 1s && tint2) &
+
+# Set wallpaper
+(sleep 1s && feh --bg-scale /usr/share/archlinux/wallpaper/archlinux-simplyblack.png)  &
+sh ~/.fehbg &
+
+# set keyboard layout
+setxkbmap -model asus_laptop -layout us &
+
+# set up alsa
+/usr/bin/amixer sset Master Mono 90% unmute  &> /dev/null
+/usr/bin/amixer sset Master 90% unmute  &> /dev/null
+/usr/bin/amixer sset PCM 90% unmute &> /dev/null
+
+# volume tray icon
+volwheel &
+
+# enable numlock at startup
+numlockx &
+
+# ibus settings
+ibus-daemon &
+
+# autostart dropbox
+dropbox &
+
+# setup slock screen locker with xautolock
+xautolock -time 10 -locker slock &
+
+# start dunst notification daemon
+dunst &
