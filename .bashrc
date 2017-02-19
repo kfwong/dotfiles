@@ -3,8 +3,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+alias vim='nvim'
+alias vi='nvim'
 alias fuck='sudo $(history -p !!)'
 alias stfu='shutdown -h now'
+alias rm='rm --preserve-root'
 
 # Gtk themes
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
